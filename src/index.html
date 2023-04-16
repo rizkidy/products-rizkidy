@@ -5,51 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rizkidy | Products</title>
+    <title>Rizkidy | Films</title>
 </head>
 
 <body>
     <header>
         <app-bar></app-bar>
     </header>
-    <main class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-header bg-dark">
-                        <h3 class="card-title text-center text-white">Masukkan Produk Baru Kamu</h3>
-                    </div>
-                    <div class="card-body">
-                        <div class="form-group mb-3">
-                            <label for="inputProductId">ID Produk</label>
-                            <input id="inputtProductId" type="number" class="form-control" placeholder="ID Produk">
-                        </div>
-                        <div class="form-group mb-3">
-                            <label for="inputtProductTitle">Nama Produk</label>
-                            <input id="inputtProductTitle" type="text" class="form-control" placeholder="Nama Produk">
-                        </div>
-                        <div class="form-group mb-3">
-                            <label for="inputtProductCategory">Kategori Produk</label>
-                            <input id="inputtProductCategory" type="text" class="form-control" placeholder="Kategori Produk">
-                        </div>
-                        <div class="form-group mb-3">
-                            <label for="inputtProductPrice">Harga Produk</label>
-                            <input id="inputtProductPrice" type="text" class="form-control" placeholder="Harga Produk">
-                        </div>
-                        <div class="form-group mb-3">
-                            <label for="inputProductImage">Gambar Produk</label>
-                            <input id="inputProductImage" type="text" class="form-control" placeholder="Link Gambar Produk">
-                        </div>
-                        <div class="form-group mb-3">
-                            <button id="buttonSave" class="btn btn-outline-success">Simpan</button>
-                            <button id="buttonUpdate" class="btn btn-outline-warning">Ubah</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="listProduct" class="row"></div>
+    <main>
+        <search-bar></search-bar>
+        <film-list></film-list>
     </main>
 </body>
 
